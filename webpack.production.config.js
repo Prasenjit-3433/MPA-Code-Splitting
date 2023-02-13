@@ -16,11 +16,6 @@ module.exports = {
             {
                 test: /\.(png|jpg)$/,
                 type: 'asset',
-                parser: {
-                    dataUrlCondition: {
-                        maxSize: 50 * 1024 // 50 kilobytes
-                    }
-                }
             },
             {
                 test: /\.txt$/,
